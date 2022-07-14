@@ -16,4 +16,4 @@ if people_split != 0:
 else:
     split_bill = bill * (1 + tip_decimal)
 
-print(round(split_bill, 2))
+print(f"Each person should pay: {round(split_bill, 2)}")
